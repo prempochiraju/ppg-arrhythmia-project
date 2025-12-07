@@ -1,0 +1,159 @@
+(.venv) PS C:\Users\pyppr\projects\PPG-Project> python train_ppg_vgg.py
+>>
+Checking CUDA availability...
+CUDA is available.
+Initial device: cuda
+GPU Name: NVIDIA GeForce RTX 5060 Laptop GPU
+Total GPU Memory: 7.96 GB
+
+Batch size (initial): 256
+
+Testing a dummy forward on GPU to check compatibility...
+Dummy forward on GPU succeeded. Training will run on CUDA.
+
+Starting training...
+
+Epoch [1/50] Train: 1.4361/0.5502 | Val: 0.9078/0.7285 | 36.6s
+  ==> Saved new best model: C:\Users\pyppr\projects\PPG-Project\checkpoints\ppg_vgg_best.pth
+Epoch [2/50] Train: 0.7169/0.7404 | Val: 0.5542/0.7977 | 33.6s
+  ==> Saved new best model: C:\Users\pyppr\projects\PPG-Project\checkpoints\ppg_vgg_best.pth
+Epoch [3/50] Train: 0.6207/0.7803 | Val: 1.2885/0.6444 | 33.4s
+Epoch [4/50] Train: 0.5557/0.8021 | Val: 0.5221/0.7914 | 33.5s
+Epoch [5/50] Train: 0.5158/0.8131 | Val: 0.6144/0.8082 | 33.3s
+  ==> Saved new best model: C:\Users\pyppr\projects\PPG-Project\checkpoints\ppg_vgg_best.pth
+Epoch [6/50] Train: 0.4816/0.8273 | Val: 0.4255/0.8516 | 33.4s
+  ==> Saved new best model: C:\Users\pyppr\projects\PPG-Project\checkpoints\ppg_vgg_best.pth
+Epoch [7/50] Train: 0.4571/0.8342 | Val: 0.4435/0.8493 | 33.5s
+Epoch [8/50] Train: 0.4393/0.8414 | Val: 0.5118/0.8634 | 38.4s
+  ==> Saved new best model: C:\Users\pyppr\projects\PPG-Project\checkpoints\ppg_vgg_best.pth
+Epoch [9/50] Train: 0.4144/0.8522 | Val: 0.4315/0.8574 | 39.3s
+Epoch [10/50] Train: 0.4008/0.8569 | Val: 0.5754/0.8014 | 35.9s
+Epoch [11/50] Train: 0.3773/0.8636 | Val: 0.4350/0.8434 | 33.8s
+Epoch [12/50] Train: 0.3652/0.8687 | Val: 0.4931/0.8358 | 33.6s
+Epoch [13/50] Train: 0.3507/0.8738 | Val: 0.4761/0.8328 | 34.0s
+Epoch [14/50] Train: 0.3421/0.8780 | Val: 0.5103/0.8242 | 34.4s
+Epoch [15/50] Train: 0.3283/0.8816 | Val: 0.5338/0.8150 | 34.2s
+Epoch [16/50] Train: 0.3234/0.8833 | Val: 0.5038/0.8181 | 34.5s
+Epoch [17/50] Train: 0.3216/0.8831 | Val: 0.4862/0.8626 | 34.8s
+Epoch [18/50] Train: 0.3127/0.8889 | Val: 0.4868/0.8448 | 39.3s
+Epoch [19/50] Train: 0.2963/0.8928 | Val: 1.0264/0.7716 | 37.9s
+Epoch [20/50] Train: 0.3100/0.8907 | Val: 0.5133/0.8439 | 33.8s
+Epoch [21/50] Train: 0.2941/0.8935 | Val: 0.5292/0.8251 | 34.0s
+Epoch [22/50] Train: 0.2779/0.8989 | Val: 0.5137/0.8272 | 33.9s
+Epoch [23/50] Train: 0.2778/0.8986 | Val: 0.4675/0.8490 | 33.7s
+Epoch [24/50] Train: 0.2770/0.8979 | Val: 0.4809/0.8406 | 33.7s
+Epoch [25/50] Train: 0.2763/0.9001 | Val: 0.4548/0.8411 | 34.0s
+Epoch [26/50] Train: 0.2700/0.8991 | Val: 0.6096/0.8250 | 34.1s
+Epoch [27/50] Train: 0.2575/0.9064 | Val: 0.4762/0.8469 | 38.2s
+Epoch [28/50] Train: 0.2536/0.9060 | Val: 0.4392/0.8462 | 38.5s
+Epoch [29/50] Train: 0.2551/0.9089 | Val: 0.4881/0.8523 | 38.3s
+Epoch [30/50] Train: 0.2523/0.9073 | Val: 0.5306/0.8177 | 38.2s
+Epoch [31/50] Train: 0.2537/0.9072 | Val: 0.4997/0.8441 | 39.9s
+Epoch [32/50] Train: 0.2536/0.9072 | Val: 0.4862/0.8536 | 37.7s
+Epoch [33/50] Train: 0.2279/0.9167 | Val: 0.6275/0.8276 | 38.3s
+Epoch [34/50] Train: 0.2281/0.9158 | Val: 0.5063/0.8552 | 35.4s
+Epoch [35/50] Train: 0.2229/0.9151 | Val: 0.7433/0.8505 | 33.8s
+Epoch [36/50] Train: 0.2218/0.9179 | Val: 0.5111/0.8621 | 33.3s
+Epoch [37/50] Train: 0.2242/0.9174 | Val: 0.7582/0.8540 | 33.2s
+Epoch [38/50] Train: 0.2183/0.9182 | Val: 0.6692/0.8470 | 33.5s
+Epoch [39/50] Train: 0.2093/0.9217 | Val: 0.5824/0.8233 | 33.6s
+Epoch [40/50] Train: 0.2038/0.9260 | Val: 0.5401/0.8418 | 33.6s
+Epoch [41/50] Train: 0.2105/0.9208 | Val: 0.4945/0.8613 | 36.1s
+Epoch [42/50] Train: 0.1967/0.9269 | Val: 0.5145/0.8570 | 35.6s
+Epoch [43/50] Train: 0.1899/0.9295 | Val: 0.5932/0.8555 | 34.7s
+Epoch [44/50] Train: 0.1887/0.9304 | Val: 0.7271/0.8404 | 34.5s
+Epoch [45/50] Train: 0.1844/0.9310 | Val: 0.5645/0.8685 | 34.9s
+  ==> Saved new best model: C:\Users\pyppr\projects\PPG-Project\checkpoints\ppg_vgg_best.pth
+Epoch [46/50] Train: 0.1805/0.9337 | Val: 0.6694/0.8501 | 35.8s
+Epoch [47/50] Train: 0.1821/0.9311 | Val: 0.5161/0.8592 | 35.3s
+Epoch [48/50] Train: 0.1664/0.9380 | Val: 0.7028/0.8526 | 35.1s
+Epoch [49/50] Train: 0.1661/0.9370 | Val: 0.5732/0.8395 | 34.4s
+Epoch [50/50] Train: 0.1585/0.9404 | Val: 0.5248/0.8529 | 34.5s
+
+Training finished. Best Val Accuracy = 0.8685
+
+Loading best model for test evaluation...
+
+
+TEST RESULTS:
+Test Loss = 0.7543
+Epoch [48/50] Train: 0.1664/0.9380 | Val: 0.7028/0.8526 | 35.1s
+Epoch [49/50] Train: 0.1661/0.9370 | Val: 0.5732/0.8395 | 34.4s
+Epoch [50/50] Train: 0.1585/0.9404 | Val: 0.5248/0.8529 | 34.5s
+
+Training finished. Best Val Accuracy = 0.8685
+
+Loading best model for test evaluation...
+
+
+TEST RESULTS:
+Test Loss = 0.7543
+Epoch [49/50] Train: 0.1661/0.9370 | Val: 0.5732/0.8395 | 34.4s
+Epoch [50/50] Train: 0.1585/0.9404 | Val: 0.5248/0.8529 | 34.5s
+
+Training finished. Best Val Accuracy = 0.8685
+
+Loading best model for test evaluation...
+
+
+TEST RESULTS:
+Test Loss = 0.7543
+
+Training finished. Best Val Accuracy = 0.8685
+
+Loading best model for test evaluation...
+
+
+TEST RESULTS:
+Test Loss = 0.7543
+
+Loading best model for test evaluation...
+
+
+TEST RESULTS:
+Test Loss = 0.7543
+
+
+TEST RESULTS:
+Test Loss = 0.7543
+
+TEST RESULTS:
+Test Loss = 0.7543
+Test Acc  = 0.8029
+TEST RESULTS:
+Test Loss = 0.7543
+Test Acc  = 0.8029
+Test Loss = 0.7543
+Test Acc  = 0.8029
+
+Test Acc  = 0.8029
+
+
+Confusion Matrix:
+Confusion Matrix:
+[[2994    1   19    5    8   34]
+[[2994    1   19    5    8   34]
+ [  12  182   81   34    6   21]
+ [  47  105  500    5    5  200]
+ [   0   16    2  113   18    3]
+ [  12  182   81   34    6   21]
+ [  47  105  500    5    5  200]
+ [   0   16    2  113   18    3]
+ [  47  105  500    5    5  200]
+ [   0   16    2  113   18    3]
+ [  23   10   23  142  407   58]
+ [  48  183  492   20   55 2633]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9584    0.9781    0.9681      3061
+           1     0.3662    0.5417    0.4370       336
+           2     0.4476    0.5800    0.5053       862
+           3     0.3542    0.7434    0.4798       152
+           4     0.8156    0.6139    0.7005       663
+           5     0.8928    0.7674    0.8254      3431
+
+    accuracy                         0.8029      8505
+   macro avg     0.6392    0.7041    0.6527      8505
+weighted avg     0.8349    0.8029    0.8131      8505

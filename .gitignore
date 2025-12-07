@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Data
+data_raw/
+data_new/
+data_ecg_ppg/
+checkpoints/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+# OS / editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
